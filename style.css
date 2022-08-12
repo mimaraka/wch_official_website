@@ -1,8 +1,27 @@
-.logo {
-    width:300px;
-    fill: rgb(78, 38, 31);
+.main {
+    position:absolute;
+    margin: auto;
+    width: 330px;
+    height: 330px;
+    transition: all .4s;
+    color: rgb(142, 103, 204);
+    font-size:330px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-shadow: 0 0 50px rgba(151, 61, 153, 0.693);
+}
+.main:hover {
+    transform: scale(1.10);
+    color: rgb(237, 205, 237);
+    text-shadow: 0 0 120px rgba(188, 126, 189, 0.714);
 }
 
 body {
+    position: relative;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(29, 29, 29);
 }
